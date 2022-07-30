@@ -1,0 +1,159 @@
+.single-movie__wrapper {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.493);
+}
+
+.single-movie {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+
+  color: white;
+  &__logo {
+    max-height: 69px;
+    display: flex;
+    justify-content: center;
+    margin: 33px 0 50px;
+
+    img {
+      width: 40%;
+    }
+  }
+
+  &__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    .single-movie__poster {
+      flex: 0 0 300px;
+      img {
+        height: 500px;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: -6px 1px 15px 14px rgba(0, 0, 0, 0.25);
+      }
+    }
+
+    .single-movie__header-info {
+      display: flex;
+      flex-direction: column;
+      font-family: "Oswald", sans-serif;
+      flex: 0 0 60%;
+
+      .single-movie__title-rating {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-between;
+        .single-movie__rating-user {
+          cursor: pointer;
+        }
+      }
+
+      .single-movie__title {
+        line-height: 1.5;
+
+        .single-movie__title-ru {
+          overflow-wrap: break-word;
+          margin: 0;
+          font-size: 50px;
+          font-weight: 600;
+        }
+        .single-movie__title-en {
+          font-size: 23px;
+          font-weight: 400;
+          color: rgb(111, 111, 111);
+        }
+        .icon {
+          font-size: 35px;
+        }
+      }
+
+      .single-movie__rating {
+        display: flex;
+        font-size: 35px;
+        font-weight: 300;
+
+        .single-movie__rating-default {
+          display: flex;
+          border-right: solid 1px white;
+          padding-right: 13px;
+        }
+        .single-movie__rating-user {
+          display: flex;
+          margin-left: 13px;
+        }
+      }
+
+      .single-movie__short-discription {
+        font-size: 25px;
+        margin: 50px 0;
+      }
+    }
+  }
+
+  &__about {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 70px;
+    width: 616px;
+    font-size: 20px;
+    font-family: "Oswald";
+    border-radius: 20px;
+    box-shadow: 0px 2px 15px 15px rgb(0 0 0 / 35%);
+
+    h1 {
+      font-size: 44px;
+    }
+
+    .about__block {
+      display: flex;
+      flex-direction: row;
+      margin: 10px 0 10px;
+      justify-content: space-between;
+
+      .about__title {
+        font-size: 26px;
+        font-weight: 400;
+        width: 155px;
+      }
+      .about__link {
+        font-weight: 300;
+        font-size: 27px;
+      }
+    }
+  }
+
+  &__rating-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1px;
+    border-radius: 20px;
+    padding: 20px;
+    label {
+      padding: 10px;
+    }
+  }
+}
+
+.single-movie__same-films {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 85%;
+  height: 20%;
+  font-family: "Oswald", sans-serif;
+  position: relative;
+}
+
+.single-movie__reviews {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}

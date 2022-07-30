@@ -1,0 +1,39 @@
+https://imdb-api.com/en/API/Top250Movies/k_ssc2fl9z // top 250 movie
+
+https://imdb-api.com/en/API/Top250TVs/k_ssc2fl9z // top 250 tv shows
+
+ae0be72b - KEY
+
+http://www.omdbapi.com/?apikey=[ae0be72b]&HANCOCK
+
+
+
+http://www.omdbapi.com/?i=tt3896198&apikey=ae0be72b
+
+
+
+async function fetchFilms() {
+  const response = await fetch(
+    "https://kinopoiskapiunofficial.tech/api/v2.2/films/top?type=TOP_250_BEST_FILMS&page=3",
+    {
+      method: "GET",
+      headers: {
+        "X-API-KEY": "6c1bf884-e7e2-4cc7-939d-998d5b771807",
+        "Content-Type": "application/json"
+      }
+    }
+  );
+  const data = await response.json();
+}
+
+
+
+https://kinopoiskapiunofficial.tech/api/v1/staff?filmId=${id} - режиссеры и актеры 
+https://kinopoiskapiunofficial.tech/api/v2.2/films/${id}/box_office - сборы бюджет 
+https://kinopoiskapiunofficial.tech/api/v2.2/films/${id} - фильм по id 
+
+
+setInterval(()=>{
+  console.log("я сраркус")
+},1)
+

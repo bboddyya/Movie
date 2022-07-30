@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&display=swap");
+body {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: #222226; */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  /* background-image: linear-gradient(
+    310deg,
+    hsl(240deg 6% 14%) 0%,
+    hsl(349deg 22% 17%) 44%,
+    hsl(355deg 33% 19%) 65%,
+    hsl(357deg 40% 21%) 78%,
+    hsl(358deg 46% 23%) 87%,
+    hsl(359deg 50% 25%) 94%,
+    hsl(0deg 53% 26%) 100%
+  ); */
+
+  background-image: linear-gradient(
+    310deg,
+    hsl(0deg 0% 4%) 0%,
+    hsl(222deg 36% 17%) 50%,
+    hsl(218deg 52% 28%) 100%
+  );
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

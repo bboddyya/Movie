@@ -1,0 +1,7 @@
+.App {
+  position: relative;
+}
+
+input[type="radio"] {
+  display: none;
+}

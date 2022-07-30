@@ -1,0 +1,16 @@
+.rating-selection {
+  display: flex;
+  font-family: "Oswald", sans-serif;
+
+  &__star {
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
